@@ -12,16 +12,23 @@ body{
 }
 .btn{
     background-color: #FD6E0A;
-    padding: 10px 20px;
+    padding: 18px 35px;
     border: none;
     color: #fff;
     font-size: 20px;
     font-weight: 700;
+    border-radius: 5px;
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png) ,url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
 nav{
     display: flex;
-    justify-content: space-around;
-    margin: 30px 0;
+    justify-content: space-between;
+    margin: 0px 150px;
 }
 /* this is a Navbar title css */
 .nav-title{
@@ -38,4 +45,68 @@ nav ul li {
     margin-left: 30px;
     font-size: 20px;
     font-weight: 400;
+    color: #474747;
+}
+/* banner style  */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 35px 150px;
+}
+.banner-sub-title{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+}
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+/* about style  */
+section{
+    width: 1140px;
+    margin: 100px auto;
+}
+.about{
+    background-color:  #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.section-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px; 
+    margin-bottom: 30px;   
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
 }
