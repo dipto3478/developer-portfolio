@@ -19,7 +19,7 @@ body {
   font-weight: 700;
   border-radius: 5px;
 }
-.btn i{
+.btn i {
   margin-right: 10px;
 }
 header {
@@ -50,7 +50,7 @@ nav ul li {
   font-weight: 400;
   color: #474747;
 }
-.contact-btn{
+.contact-btn {
   background-color: transparent;
   padding: 16px 35px;
   border-color: #fd6e0a;
@@ -60,7 +60,7 @@ nav ul li {
   border-radius: 5px;
   margin-left: 30px;
 }
-.contact-btn i{
+.contact-btn i {
   margin-right: 10px;
 }
 /* banner style  */
@@ -143,8 +143,7 @@ section {
   width: 267px;
   padding: 35px;
 }
-.skills-list img {
-}
+
 .skills-title {
   color: #181818;
   font-weight: 700;
@@ -163,10 +162,7 @@ section {
   display: flex;
   gap: 20px;
 }
-.resume-content-1st {
-}
-.resume-list {
-}
+
 .resume-title {
   color: #474747;
   font-weight: 700;
@@ -212,8 +208,7 @@ footer {
   display: flex;
   gap: 100px;
 }
-.contact-left {
-}
+
 .contact-title {
   color: #181818;
   font-weight: 700;
@@ -232,8 +227,7 @@ footer {
   text-decoration: none;
   margin-right: 10px;
 }
-.contact-right {
-}
+
 .contact-right input,
 textarea {
   width: 100%;
