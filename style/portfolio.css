@@ -86,13 +86,15 @@ section{
     font-size: 35px;
     line-height: 48px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .section-description{
     color: #757575;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px; 
-    margin-bottom: 30px;   
+    margin-bottom: 30px; 
+    text-align: center;  
 }
 .about-info-container{
     display: flex;
@@ -109,4 +111,35 @@ section{
     font-size: 20px;
     line-height: 30px;
     color: #474747;
+}
+/* what i do styles */
+.wid-description{
+    padding: 0 150px;
+}
+.skills-about{
+  display: flex;
+  justify-content: space-between;
+}
+.skills-list{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background-color: #fff;
+    width: 267px;
+    padding: 35px;
+}
+.skills-list img{
+    
+}
+.skills-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 20px 0;
+}
+.skills-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
