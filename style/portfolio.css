@@ -19,6 +19,9 @@ body {
   font-weight: 700;
   border-radius: 5px;
 }
+.btn i{
+  margin-right: 10px;
+}
 header {
   background-color: #fff8f3;
   background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -28,7 +31,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 150px;
+  padding: 30px 150px;
 }
 /* this is a Navbar title css */
 .nav-title {
@@ -46,6 +49,19 @@ nav ul li {
   font-size: 20px;
   font-weight: 400;
   color: #474747;
+}
+.contact-btn{
+  background-color: transparent;
+  padding: 16px 35px;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.contact-btn i{
+  margin-right: 10px;
 }
 /* banner style  */
 .banner {
